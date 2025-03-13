@@ -16,7 +16,7 @@ class UserRemoteDataSourceImpl implements UserRemoteDataSource {
   Future<User> signUpUser(Map<String, dynamic> userData) async {
     try {
       final response = await dio.post(
-        'https://your-api-url.com/api/users/signup/', // آدرس API ثبت‌نام
+        'https://https://mohamadjavad.pythonanywhere.com//api/villagers/', // آدرس API ثبت‌نام
         data: userData,
       );
 
